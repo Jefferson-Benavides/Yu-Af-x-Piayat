@@ -1,0 +1,166 @@
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        color: red;
+    }
+
+    .header-institucional h1,
+    .header-institucional h2 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    p,
+    li,
+    td {
+        font-size: 40px;
+        justify-content: center;
+    }
+
+    .text1 {
+        border: 2px solid black;
+        background-color: rgb(165, 165, 165);
+    }
+
+    .estrategias {
+        display: none;
+    }
+
+    .span-lugar,
+    .tiempo,
+    .omnisciente,
+    .container-text,
+    .omnisciente-dialogo,
+    .pregunta-opciones,
+    .opciones {
+        border-radius: 16px;
+    }
+
+    .span-lugar {
+        border: 3px solid darkblue;
+    }
+
+    .tiempo {
+        border: 3px solid orangered;
+    }
+
+    .actividad-clase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .container-fluid {
+        padding: 5%;
+    }
+
+    .omnisciente,
+    .container-text {
+        padding: 16px;
+        border: 2px solid black;
+        background-color: rgb(202, 202, 202);
+    }
+
+    .omnisciente-dialogo {
+        border: 2px solid black;
+        padding: 3px;
+        background-color: rgb(202, 202, 202);
+    }
+
+    .container-text {
+        margin-top: 12px;
+    }
+
+    .header {
+        position: fixed;
+        background-color: cyan;
+        width: 100%;
+        justify-content: right;
+        display: flex;
+        border-bottom: 2px solid rgb(0, 59, 59);
+    }
+
+    .informacion-personal,
+    .pregunta-opciones {
+        border: 2px solid darkgreen;
+        border-radius: 12px;
+        padding: 12px;
+    }
+
+    .titulo-texto {
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+    .autor-texto {
+        font-weight: bold;
+    }
+
+    .texto {
+        padding: 32px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .pregunta-opciones {
+        margin: 12px;
+        padding: 12px;
+    }
+
+    .pregunta {
+        font-weight: bold;
+    }
+
+    .opciones {
+        background-color: aqua;
+        padding-left: 32px;
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+
+    .multimedia-video {
+        padding-left: 32px;
+        display: grid;
+        grid-template-columns: 30% 60%;
+    }
+
+    .informacion-personal,
+    .container-text {
+        /* display: none; */
+    }
+
+    .multimedia {
+        margin: 12px;
+    }
+
+    img {
+        width: 90%;
+        /* border: 2px solid black; */
+        border-radius: 12px;
+    }
+
+    p img {
+        border: none;
+        border-radius: 0px;
+        width: 52px;
+    }
+
+    #diafano {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .multimedia-video:last-child{
+    margin-left: 140px;
+} */
+
+    td p {
+        font-size: 60px;
+    }
+
+    .autor {
+        font-size: 19px;
+        font-style: italic;
+
+    }
+

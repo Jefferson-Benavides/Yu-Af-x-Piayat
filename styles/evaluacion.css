@@ -1,0 +1,41 @@
+
+.img-respuesta {
+    width: 136px;
+}
+
+.img-pregunta {
+    width: 50%;
+}
+
+ol>li {
+    border: 1.5px solid black;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.titulo-impresion {
+    color: black;
+    font-size: 12px;
+}
+
+.impreso p,
+.impreso li {
+    font-size: 12px;
+    color: black;
+}
+
+.hoja-respuestas > td{
+border: 2px solid black;
+border-radius: 50%;
+background-color: brown;
+}
+
+.circulo-respuesta{
+    font-size: 24px;
+}
+
+td{
+    font-size: 24px;
+    color: black;
+}

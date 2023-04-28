@@ -1,0 +1,100 @@
+.joven,
+.ruisenior,
+.lagartija,
+.mariposa,
+.margarita,
+.rosal,
+.girasoles,
+.arbusto,
+.seniorita,
+.encina,
+.lonnrot,
+.yarmo,
+.escarlata,
+.tetrarca,
+.chofer,
+.trevi,
+.redactor,
+.daniel,
+.hermanastras,
+.hada,
+.cenicienta,
+.oracion {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.girasoles,
+.cenicienta {
+    color: rgb(196, 196, 47);
+}
+
+.lonnrot,
+.joven {
+    color: darkgoldenrod;
+}
+
+.yarmo,
+.arbusto,
+.hada {
+    color: firebrick;
+}
+
+.lagartija,
+.sinonimo {
+    color: green;
+}
+
+.escarlata,
+.rosal,
+.antonimo {
+    color: red;
+}
+
+.tetrarca,
+.ruisenior {
+    color: purple;
+}
+
+.chofer,
+.mariposa {
+    color: royalblue;
+}
+
+.trevi,
+.encina,
+.oracion {
+    color: saddlebrown;
+}
+
+.redactor,
+.margarita {
+    color: hotpink;
+}
+
+.letra-nombre {
+    text-align: center;
+    font-style: italic;
+}
+
+.daniel,
+.seniorita,
+.hermanastras {
+    color: slateblue;
+}
+
+.omnisciente, .omnisciente-dialogo{
+    color: rgb(2, 0, 109);
+    padding: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.test{
+    border: 1px solid black;
+}
+
+.tilde{
+    border: 2px solid black;
+}

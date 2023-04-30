@@ -1,0 +1,3 @@
+.definicion-diccionario a::first-letter {
+    text-transform: uppercase;
+}

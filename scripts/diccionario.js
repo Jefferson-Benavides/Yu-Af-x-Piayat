@@ -1,4 +1,4 @@
-var items = ['réservé', 'premier', 'cliché', 'communiqué', 'café', 'adieu'];
+var items = ['artritis', 'árbol', 'réservé', 'premier', 'cliché', 'communiqué', 'café', 'adieu'];
 items.sort(function (a, b) {
   return a.localeCompare(b);
 });

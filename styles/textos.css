@@ -26,6 +26,11 @@
         display: none;
     }
 
+    .western{
+        font-size: 28px;
+        text-align: left;
+    }
+
     .span-lugar,
     .tiempo,
     .omnisciente,

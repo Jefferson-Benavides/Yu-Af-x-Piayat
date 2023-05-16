@@ -1,0 +1,14 @@
+americanismosArabismos.txt
+arroba.png
+azucar.png
+cancha.png
+canoa.png
+choclo.png
+chocolate.png
+cigarro.png
+desktop.ini
+grama.png
+maraca.png
+penta.png
+quena.png
+taza.png

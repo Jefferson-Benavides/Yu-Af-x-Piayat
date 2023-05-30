@@ -8,22 +8,25 @@
 }
 
 ol>li {
-    border: 1.5px solid black;
+    border: 2.0px solid rgb(2, 0, 109);
     margin-bottom: 20px;
-    padding: 8px;
+    padding: 20px;
     border-radius: 12px;
 }
 
+ul>li{
+    padding-left: 24px;
+}
+ul{
+    list-style-position: inherit;
+    padding-left: 48px;
+}
 .titulo-impresion {
     color: black;
     font-size: 12px;
 }
 
-.impreso p,
-.impreso li {
-    font-size: 12px;
-    color: black;
-}
+
 
 .hoja-respuestas > td{
 border: 2px solid black;
@@ -38,4 +41,33 @@ background-color: brown;
 td{
     font-size: 24px;
     color: black;
+}
+
+.abc-choices{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+.choice{
+    border: 2px solid rgb(2, 0, 109);
+    border-radius: 50%;
+    font-size: 28px;
+    margin: 8px;
+    padding: 4px;
+}
+
+.pregunta-hoja-respuestas{
+    border: none;
+    font-size: 12px;
+}
+
+.numero{
+    font-size: 12px;
+}
+
+#hoja-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

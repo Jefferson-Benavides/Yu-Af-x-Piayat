@@ -1,12 +1,18 @@
-.definiciones-diccionario {
+.definiciones-diccionario{
+    display: flex;
+    flex-flow: column;
+}
+
+/* .definiciones-diccionario {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 360px));
+    grid-template-columns: repeat(auto-fill, minmax(80px, 360px));
     gap: 16px;
     justify-content: center;
-}
+} */
 
 .definicion-diccionario {
     padding: 8px;
+    padding-bottom: 24px;
     text-align: center;
     text-decoration: none;
     font-size: 40px;
@@ -21,7 +27,7 @@
     color: rgb(2, 0, 109);
     border-radius: 80px;
     border: 4px solid rgb(2, 0, 109);
-    padding: 12px;
+    padding: 8px;
 }
 
 .definicion-diccionario:hover a {
@@ -38,12 +44,12 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .definiciones-diccionario {
         grid-template-columns: repeat(auto-fit, minmax(80px, 239px));
         justify-content: center;
     }
-}
+} */
 
 /* 
 .container-diccionario {

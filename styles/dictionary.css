@@ -1,4 +1,4 @@
-.definiciones-diccionario{
+.definiciones-diccionario {
     display: flex;
     flex-flow: column;
 }
@@ -84,4 +84,54 @@
     100% {
         transform: rotate(360deg)
     }
+}
+
+/* ESTILOS DE LA RAE */
+/* termino */
+.f {
+    margin-bottom: .8em;
+    color: #0123ce;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: palatino linotype, Palatino, Palladio, urw palladio l, book antiqua, Baskerville, bookman old style, bitstream charter, nimbus roman no9 l, Garamond, apple garamond, itc garamond narrow, new century schoolbook, century schoolbook, century schoolbook l, Georgia, serif
+}
+
+/* etimologia */
+.n2,
+.n3,
+.n4,
+.n5 {
+    margin: 0;
+    color: green;
+    padding: .3em .3em .2em;
+    font-size: .9em;
+    background-color: #f0f0f0;
+    text-decoration: none!important;
+}
+
+.n_acep {
+    font-weight: 700;
+}
+.d {
+    color: #0070c0;
+    text-decoration: none!important;
+    cursor: pointer!important;
+}
+.g {
+    text-decoration: none!important;
+    color: #707070;
+}
+.k5 {
+    color: maroon;
+}
+.k5, .k6 {
+    font-size: 1.2em!important;
+    font-weight: 700;
+    font-family: palatino linotype,Palatino,Palladio,urw palladio l,book antiqua,Baskerville,bookman old style,bitstream charter,nimbus roman no9 l,Garamond,apple garamond,itc garamond narrow,new century schoolbook,century schoolbook,century schoolbook l,Georgia,serif;
+    margin-top: 1em;
+}
+
+.h {
+    color: #5e0d5e;
+    font-style: italic;
 }
